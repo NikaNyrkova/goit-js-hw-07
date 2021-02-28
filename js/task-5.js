@@ -8,5 +8,7 @@ const refs = {
 refs.inputEl.addEventListener('input', onOutputChangeName);
 
 function onOutputChangeName(event) {
-    refs.outputEl.textContent = event.currentTarget.value === '' ? 'незнакомец' : event.currentTarget.value;
+    refs.outputEl.textContent = event.currentTarget.value === ''
+        ? 'незнакомец'
+        : event.currentTarget.value;
 }

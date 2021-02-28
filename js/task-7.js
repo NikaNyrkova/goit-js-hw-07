@@ -10,6 +10,6 @@ inputControl.step = 10;
 
 inputControl.addEventListener('input', onChangeFontSizeTextEl);
 
-function onChangeFontSizeTextEl(event) {
+function onChangeFontSizeTextEl (event) {
     textEl.style.fontSize = Number(event.currentTarget.value) + 'px';
 };
